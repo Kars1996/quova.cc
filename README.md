@@ -1,40 +1,78 @@
-<a href="https://quova.cc" align="center">
-    <img src="https://r2.resynced.design/cdn/01JTTZSBNB68AC7XZTTYTA34QX.gif" align="center" />
-</a>
 
-# Quova.cc
+<div align="center">
+  <a href="https://quova.cc">
+    <img src="https://r2.resynced.design/cdn/01JTTZSBNB68AC7XZTTYTA34QX.gif" alt="Quova" />
+  </a>
+</div>
 
-Quova.cc is a biolink platform that I developed and designed for ante. Currently, it is in early stages of growth however it is already recognized by large communities. I did all of the development and most of the design myself. This repository is a collection of some of the snippets for quova.
+# Quova.cc 🚀
+
+*A clean, fast, and fully customizable biolink platform*
+
+[![Visit My Portfolio](https://img.shields.io/badge/Portfolio-kars.bio-9c6fff?style=flat-square\&logo=vercel\&logoColor=white)](https://kars.bio)
+[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/your-repo-link)
 
 ---
 
-# Stack
+## 📌 Overview
 
-Quova.cc was built in typescript as it's main language.
+**Quova.cc** is a biolink tool designed and developed by me for **ante**, with the goal of providing elegant user profiles, dashboarding, and bot-integrated features. It's currently in its early growth stage and already gaining recognition from larger online communities.
 
-- Database - Postgress / Prisma
-- Framework - NextJS
-- Styling - TailwindCSS
-- Authentication - Custom
-- Emails - MailGun
-- Deployment - Vercel
-- Bot - Discord.JS
-- Database (Bot) - SQLite / Custom Handler
+> This repository includes curated snippets of the codebase for portfolio/demo purposes. Full implementation is intentionally truncated.
 
---- 
+---
 
-# Features
+## 🧠 Stack
 
-- User onboarding flow
-- Customizable profiles/themes
-- Extensive Dashboard
-- Admin panel
-- Discord Bot intergration
-- OG Generation
-- Custom Database manager
-- File Uploading
-- Analytics
+> Built entirely in **TypeScript**
 
-For more info check out quova @ [quova.cc](https://quova.cc)
+* **Database**: PostgreSQL (via Prisma)
+* **Framework**: Next.js
+* **Styling**: TailwindCSS
+* **Auth**: Custom-built
+* **Email**: MailGun
+* **Deployment**: Vercel
+* **Bot**: Discord.js
+* **Bot DB**: SQLite w/ custom handler
 
-Note: Some functions will be truncated as to not release the entire codebase, JSDocs have been added to explain functionality.
+---
+
+## ⚙️ Features
+
+* 🚪 Clean user onboarding flow
+* 🎨 Fully customizable profiles & themes
+* 📊 Dashboard with analytics
+* 🧑‍💼 Admin panel for moderation & insights
+* 🤖 Discord bot integration
+* 🖼️ OG image generation
+* 🗃️ Custom database manager
+* 📁 File uploading
+* 📈 Basic traffic and click tracking
+
+---
+
+## 🤖 Bot Structure (Truncated)
+
+The Discord bot is modular and cleanly separated into:
+
+* `commands/` → Organized by admin, dev, misc, and store commands
+* `events/` → Guild & message-based triggers
+* `handlers/` → Core logic: command, event, DB, API handling
+* `utils/` → Helpers for embeds, bios, stats, leaderboard, etc.
+* `data/` → SQLite DB, migrations, and schema
+
+> The bot is designed to be lightweight but powerful — running role systems, user moderation, premium features, and leaderboard tracking.
+
+---
+
+## 📎 Notes
+
+* Only partial code samples are included here. Full proprietary logic is not exposed.
+* Docs via JSDoc are added where needed to clarify functionality.
+
+---
+
+## 🔗 More
+
+Check it out live: [quova.cc](https://quova.cc)
+Or browse more of my work at [kars.bio](https://kars.bio)
