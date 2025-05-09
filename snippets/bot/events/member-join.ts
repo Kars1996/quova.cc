@@ -5,6 +5,15 @@ import { BotEvent, AutoroleType } from "../types";
 import { color } from "../functions";
 import Embeds from "../embeds";
 
+
+
+/*
+Copyright © 2025 Kars (github.com/kars1996)
+
+Not to be shared, replicated, or used without prior consent.
+Contact me for any enquiries
+*/
+
 const event: BotEvent = {
     name: "guildMemberAdd",
     once: false,

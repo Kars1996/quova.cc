@@ -4,6 +4,15 @@ import { join } from "path";
 import { color } from "../functions";
 import { Command } from "../types";
 
+
+
+/*
+Copyright © 2025 Kars (github.com/kars1996)
+
+Not to be shared, replicated, or used without prior consent.
+Contact me for any enquiries
+*/
+
 module.exports = (client: Client) => {
     const commands: Command[] = [];
     let commandsDir = join(__dirname, "../commands");

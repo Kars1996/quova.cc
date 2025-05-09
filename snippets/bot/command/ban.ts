@@ -2,6 +2,15 @@ import { Command } from "../../types";
 import Embeds from "../../embeds";
 import { PermissionFlagsBits } from "discord.js";
 
+
+
+/*
+Copyright © 2025 Kars (github.com/kars1996)
+
+Not to be shared, replicated, or used without prior consent.
+Contact me for any enquiries
+*/
+
 const command: Command = {
     name: "ban",
     desc: "ban a user",

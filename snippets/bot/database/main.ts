@@ -3,6 +3,15 @@ import { readFileSync, existsSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
 import { promisify } from "util";
 
+
+
+/*
+Copyright © 2025 Kars (github.com/kars1996)
+
+Not to be shared, replicated, or used without prior consent.
+Contact me for any enquiries
+*/
+
 interface Migration {
     id: number;
     name: string;

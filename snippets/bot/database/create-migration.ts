@@ -7,6 +7,15 @@ import * as child_process from "child_process";
 import { promisify } from "util";
 import styles, { spinner, divider } from "./utils/cli-styling";
 
+
+
+/*
+Copyright © 2025 Kars (github.com/kars1996)
+
+Not to be shared, replicated, or used without prior consent.
+Contact me for any enquiries
+*/
+
 const exec = promisify(child_process.exec);
 
 const rl = readline.createInterface({

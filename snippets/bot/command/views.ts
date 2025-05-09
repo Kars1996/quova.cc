@@ -3,6 +3,15 @@ import Embeds from "../../embeds";
 import getStats from "../../utils/getStats";
 import getBio from "../../utils/getBio";
 
+
+
+/*
+Copyright © 2025 Kars (github.com/kars1996)
+
+Not to be shared, replicated, or used without prior consent.
+Contact me for any enquiries
+*/
+
 const command: Command = {
     name: "views",
     desc: "view total views or views of a profile",
