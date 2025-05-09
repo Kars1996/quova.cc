@@ -55,13 +55,54 @@
 
 The Discord bot is modular and cleanly separated into:
 
-* `commands/` → Organized by admin, dev, misc, and store commands
+* `commands/` → Organized by category to store commands.
 * `events/` → Guild & message-based triggers
 * `handlers/` → Core logic: command, event, DB, API handling
 * `utils/` → Helpers for embeds, bios, stats, leaderboard, etc.
 * `data/` → SQLite DB, migrations, and schema
 
 > The bot is designed to be lightweight but powerful — running role systems, user moderation, premium features, and leaderboard tracking.
+
+---
+
+## 🌐 Web App Structure (Expanded)
+
+The app is modular and organized for maintainability and scale:
+
+* `app/` → Routing, layouts, global state
+
+  * `dashboard/` → Auth-protected routes
+
+* `components/` → Reusable UI elements
+
+  * `ui/` → Design system: `Button.tsx`, `Modal.tsx`, `Input.tsx`
+  * `charts/` → Data visualizations
+  * `layout/` → `Header.tsx`, `Sidebar.tsx`, `Footer.tsx`
+  * And more...
+
+* `lib/` → Core logic & services
+
+  * `api/` → API wrappers: `users.ts`, `auth.ts`
+  * `db.ts` → Database connection and queries
+  * `auth.ts` → Auth utilities and middleware
+  * And more...
+
+* `styles/` → Styling and theme
+
+  * `globals.css` → Base Tailwind setup
+  * `theme.ts` → Design tokens, color config
+
+* `public/` → Static assets
+
+  * `images/` → Logos, illustrations
+  * `favicon.ico`
+
+* `utils/` → Pure functions and helpers
+
+  * `format.ts` → Date, number, string formatting
+  * `validators.ts` → Input validation logic
+
+> The structure supports SSR/SSG, authentication, API consumption, and scalable UI development using atomic components.
 
 ---
 
