@@ -45,7 +45,7 @@
 * 🖼️ OG image generation
 * 🗃️ Custom database manager
 * 📁 File uploading
-* 📈 Basic traffic and click tracking
+* 📈 Advanced traffic and click tracking
 
 ---
 
