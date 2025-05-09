@@ -1,15 +1,14 @@
-
 <div align="center">
   <a href="https://quova.cc">
     <img src="https://r2.resynced.design/cdn/01JTTZSBNB68AC7XZTTYTA34QX.gif" alt="Quova" />
   </a>
+
+  # Quova.cc 🚀
+
+  *A clean, fast, and fully customizable biolink platform*
+
+  [![Visit My Portfolio](https://img.shields.io/badge/Portfolio-kars.bio-9c6fff?style=flat-square\&logoColor=white)](https://kars.bio)
 </div>
-
-# Quova.cc 🚀
-
-*A clean, fast, and fully customizable biolink platform*
-
-[![Visit My Portfolio](https://img.shields.io/badge/Portfolio-kars.bio-9c6fff?style=flat-square\&logoColor=white)](https://kars.bio)
 
 ---
 
