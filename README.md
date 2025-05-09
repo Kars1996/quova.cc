@@ -29,7 +29,7 @@
 * **Styling**: TailwindCSS
 * **Auth**: Custom-built
 * **Email**: MailGun
-* **Deployment**: Vercel
+* **Deployment**: Vercel/Dedicated Server
 * **Bot**: Discord.js
 * **Bot DB**: SQLite w/ custom handler
 
