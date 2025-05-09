@@ -9,8 +9,7 @@
 
 *A clean, fast, and fully customizable biolink platform*
 
-[![Visit My Portfolio](https://img.shields.io/badge/Portfolio-kars.bio-9c6fff?style=flat-square\&logo=vercel\&logoColor=white)](https://kars.bio)
-[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/your-repo-link)
+[![Visit My Portfolio](https://img.shields.io/badge/Portfolio-kars.bio-9c6fff?style=flat-square\&logoColor=white)](https://kars.bio)
 
 ---
 
