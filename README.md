@@ -31,7 +31,7 @@
 * **Email**: MailGun
 * **Deployment**: Vercel/Dedicated Server
 * **Bot**: Discord.js
-* **Bot DB**: SQLite w/ custom handler
+* **Bot DB**: PostgreSQL w/ custom handler
 
 ---
 
